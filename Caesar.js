@@ -32,7 +32,7 @@ var caesar = function (str, amount) {
     }
     return output;
 }
-let div=getRandomInt(10, 20);
+let div=getRandomInt(1, 20);
 let text_code=(caesar(input,div));
 fs.writeFileSync('code.txt',text_code);
 for (let s=0; s<text_code.length; s++){
